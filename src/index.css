@@ -7,8 +7,32 @@
 body{
   background-color: #22254b;
   color: white;
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
   margin: 0;
+}
+
+.root{
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: #373b69;
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+
+.search{
+  background-color: transparent;
+  border: 2px solid #22254b;
+  border-radius: 50px;
+  color: white;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .movie-container{
@@ -61,3 +85,4 @@ body{
 .movie:hover .movie-over{
   transform: translateY(0%);
 }
+
