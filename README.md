@@ -1,6 +1,103 @@
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+![GitHub language count](https://img.shields.io/github/languages/count/larissasouto/movies-app) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/larissasouto/movies-app) ![GitHub](https://img.shields.io/github/license/larissasouto/movies-app)
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="./src/images/logo.jpg" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Find Your Movie</h3>
+
+  <p align="center">
+    Your own movie library to find what you want to watch!
+    <br />
+    <a href="https://github.com/larissasouto/movies-app"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://movies-app-199a9.web.app/">View Demo</a>
+    ·
+    <a href="https://github.com/larissasouto/movies-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/larissasouto/movies-app/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p align="center">
+  <a href="https://movies-app-199a9.web.app/">
+    <img src="./src/images/main-screen.png" alt="Main screen">
+  </a>
+</p>
+
+
+This project was developed with the goal of creating a simple web application to find movies to watch. You can search for the movie title, see the synopsis, and the rating for the movie. 
+
+It's a very simple application, but the aim was training my knowledge in ReactJS. Also it's amazing use your time to focus on creating something amazing!
+
+### Built With
+
+This section list the frameworks and tools that was used to build this project:
+* [ReactJS](https://reactjs.org/)
+* [The Movie DB API](https://www.themoviedb.org/documentation/api)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### Available Scripts
 
 In the project directory, you can run:
 
@@ -12,57 +109,67 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project you'll need only the npm, and you also can use <a href="https://yarnpkg.com/getting-started">yarn</a>.
 
-### `yarn build`
+* yarn  
+  ```sh
+  npm install -g yarn
+  ```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Get a free API Key at [themoviedb.org](https://www.themoviedb.org/documentation/api)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `App.js`
+   ```JS
+   const FEATURED_API = 'ENTER YOUR API';
+   const SEARCH_API = 'ENTER YOUR API';
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- CONTRIBUTING -->
+## Contributing
 
-### `yarn eject`
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- LICENSE -->
+## License
 
-## Learn More
+Distributed under the MIT License. See `LICENSE` for more information.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<!-- CONTACT -->
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Larissa Souto - [Linkedin](https://www.linkedin.com/in/larissa-souto/)
 
-### Analyzing the Bundle Size
+Project Link: [https://github.com/larissasouto/movies-app](https://github.com/larissasouto/movies-app)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
