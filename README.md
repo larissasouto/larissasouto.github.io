@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://movies-app-199a9.web.app/">
+  <a href="https://movies-app-199a9.web.app/" target="_blank">
     <img src="./src/images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
